@@ -6,5 +6,5 @@ specific values
 
 a: int = 1
 pi: float = 3.142
-i_understand_annotations = True
+i_understand_annotations: bool = True
 school: str = "Holberton"
