@@ -5,7 +5,7 @@ return the concatenated string
 """
 
 
-def concat(str1: string, str2: string):
+def concat(str1: str, str2: str) -> str:
     """function that returns the
     concatenated string
     """
