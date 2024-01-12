@@ -4,9 +4,10 @@ funcrion that takes a list of floats
 as argument and returns their sum as
 floats
 """
+from typing import List
 
 
-def sum_list(input_list: list[float]) -> float:
+def sum_list(input_list: List[float]) -> float:
     """function that takes a list of floats
     as argumentn and returns their sum
     """
