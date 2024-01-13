@@ -9,4 +9,4 @@ def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """function for the implementation of
     the module docstring specification
     """
-    return [(i, len(i) for i in lst)]
+    return [(i, len(i)) for i in lst]
