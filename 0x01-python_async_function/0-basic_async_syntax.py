@@ -5,10 +5,10 @@ the 'random' module
 """
 import random
 import asyncio
-from typing import Float
+import typing
 
 
-async def wait_random(max_delay: int = 10) -> List:
+async def wait_random(max_delay: int = 10) -> float:
     """ coroutine for the implementation """
 
     delay = random.uniform(0, max_delay)
